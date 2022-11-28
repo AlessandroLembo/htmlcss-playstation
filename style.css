@@ -13,42 +13,54 @@ header{
 }
 
 .wrapper{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 120px);
     overflow-y: auto;
 }
 
 .row > [class^="col"] {
     min-height: 30px;
     border: 1px dashed red;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
  }
 
 .container-fluid{
-    height: 100%;
+    height: 100%; 
 }
 
 .row{
-    height: 100%;   
+    height: 100%;
 }
 
 section{
-    margin: 2rem 0;
+    margin-bottom: 2rem;
     border: 1px solid blue;
 }
 
 img{
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 /* Header */
-.logo-header{
+.ps-logo-header{
     background-color: black;
      height: 40px; 
 }
 
-.nav-header{
+.ps-nav-header{
     background-color: whitesmoke;
     height: 80px; 
 }
 
+.bi-list{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 /* Jumbotron */
+/* TODO: 
+.ps-jumbo-bkg{
+    height: 500px;
+    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
