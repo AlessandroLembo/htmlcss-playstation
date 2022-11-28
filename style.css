@@ -1,12 +1,10 @@
 body{
-    /* background-color: blue; */
     padding-top: 120px; 
 }
 
 /* Generics */
 header{
     /* min-height: 150px; */
-    /* background-color: dodgerblue; */
     position: fixed;
     top: 0;
     left: 0;
@@ -22,6 +20,7 @@ header{
 .row > [class^="col"] {
     min-height: 30px;
     border: 1px dashed red;
+    margin-bottom: 0.5rem;
  }
 
 .container-fluid{
@@ -30,6 +29,11 @@ header{
 
 .row{
     height: 100%;   
+}
+
+section{
+    margin: 2rem 0;
+    border: 1px solid blue;
 }
 
 img{
