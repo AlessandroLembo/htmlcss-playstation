@@ -3,9 +3,10 @@ body{
     padding-top: 150px; 
 }
 
+/* Generics */
 header{
-    min-height: 150px;
-    background-color: dodgerblue;
+    /* min-height: 150px; */
+    /* background-color: dodgerblue; */
     position: fixed;
     top: 0;
     left: 0;
@@ -16,4 +17,28 @@ header{
 .wrapper{
     height: calc(100vh - 150px);
     overflow-y: auto;
+}
+
+.row > [class^="col"] {
+    min-height: 30px;
+    border: 1px dashed red;
+ }
+
+.container-fluid{
+    /* height: 100%; */
+}
+
+.row{
+    /* height: 100%;   */
+}
+
+/* Header */
+.logo-header{
+    background-color: black;
+     height: 40px; 
+}
+
+.nav-header{
+    background-color: whitesmoke;
+     min-height: 80px; 
 }
