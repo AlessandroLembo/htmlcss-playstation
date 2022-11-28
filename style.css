@@ -20,7 +20,6 @@ header{
 .row > [class^="col"] {
     min-height: 30px;
     border: 1px dashed red;
-    /* margin-bottom: 0.5rem; */
  }
 
 .container-fluid{
@@ -37,7 +36,7 @@ section{
 }
 
 img{
-    /* max-width: 100%; */
+    max-width: 100%; 
 }
 
 /* Header */
