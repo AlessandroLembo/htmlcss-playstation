@@ -1,6 +1,6 @@
 body{
     /* background-color: blue; */
-    padding-top: 150px; 
+    padding-top: 120px; 
 }
 
 /* Generics */
@@ -25,11 +25,15 @@ header{
  }
 
 .container-fluid{
-    /* height: 100%; */
+    height: 100%;
 }
 
 .row{
-    /* height: 100%;   */
+    height: 100%;   
+}
+
+img{
+    max-width: 100%;
 }
 
 /* Header */
@@ -40,5 +44,7 @@ header{
 
 .nav-header{
     background-color: whitesmoke;
-     min-height: 80px; 
+    height: 80px; 
 }
+
+/* Jumbotron */
