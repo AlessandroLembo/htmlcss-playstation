@@ -50,9 +50,35 @@ img{
     height: 80px; 
 }
 
+.ps-nav-header li{
+    list-style-type: none;
+}
+
+.ps-nav-header a{
+    color: black;
+    text-decoration: none;
+}
+
 .bi-list{
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.ps-right-navbar{
+    height: 100%; 
+}
+
+.ps-right-navbar nav,
+.ps-right-navbar ul{
+    height: 100%; 
+}
+
+.ps-right-navbar button{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+}
+
+
 
 /* Jumbotron */
 /* TODO: 
