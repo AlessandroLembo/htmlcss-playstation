@@ -1,3 +1,19 @@
 body{
-    background-color: blue;
+    /* background-color: blue; */
+    padding-top: 150px; 
+}
+
+header{
+    min-height: 150px;
+    background-color: dodgerblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index: 1;
+}
+
+.wrapper{
+    height: calc(100vh - 150px);
+    overflow-y: auto;
 }
