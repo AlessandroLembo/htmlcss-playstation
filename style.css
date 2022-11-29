@@ -81,7 +81,7 @@ img{
 
 /* Jumbotron */
 .ps-jumbo-bkg{
-    height: 500px;
+    min-height: 500px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: top center;
@@ -89,13 +89,19 @@ img{
     padding-top: 200px;
 }
 
-#jumbotron a{
-    /* color: white; */
-}
-
 /* Playstation 5 */
 #playstation-5 h6{
     color: rgba(0, 0, 0, 0.6);
+}
+
+/* new-games */
+.ps-new-games{
+    min-height: 500px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
 }
 
 /* discover more */
