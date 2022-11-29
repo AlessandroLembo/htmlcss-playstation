@@ -36,7 +36,7 @@ section{
 }
 
 img{
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 /* Header */
@@ -79,16 +79,19 @@ img{
 }
 
 
-
 /* Jumbotron */
-/* TODO: 
 .ps-jumbo-bkg{
     height: 500px;
-    background-image: url(img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
-}*/
+    padding-top: 200px;
+}
+
+#jumbotron a{
+    /* color: white; */
+}
 
 /* Playstation 5 */
 #playstation-5 h6{
