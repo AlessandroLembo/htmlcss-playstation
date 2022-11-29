@@ -94,3 +94,14 @@ img{
 #playstation-5 h6{
     color: rgba(0, 0, 0, 0.6);
 }
+
+/* discover more */
+#discover-more h6{
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.ps-playplus-bkg{
+    background-color: lightgray;
+}
+
