@@ -19,7 +19,7 @@ header{
 
 .row > [class^="col"] {
     min-height: 30px;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
  }
 
 .container-fluid{
@@ -32,7 +32,7 @@ header{
 
 section{
     margin-bottom: 2rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 img{
@@ -90,8 +90,14 @@ img{
 }
 
 /* Playstation 5 */
-#playstation-5 h6{
-    color: rgba(0, 0, 0, 0.6);
+.ps-text-color{
+    color: rgba(0, 0, 0, 0.6); 
+}
+
+.ps-selected-product{
+    border: 1px solid dodgerblue;
+    width: 120px;
+    height: 1px;
 }
 
 /* new-games */
@@ -105,12 +111,17 @@ img{
 }
 
 /* discover more */
-#discover-more h6{
+#discover-more p{
     color: rgba(0, 0, 0, 0.6);
 
 }
 
 .ps-playplus-bkg{
     background-color: lightgray;
+}
+
+/* new discount */
+#new-discount p{
+
 }
 
