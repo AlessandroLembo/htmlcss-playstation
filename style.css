@@ -42,15 +42,28 @@ a{
     cursor: pointer;
 }
 
+.ps-text-color{
+    color: rgba(0, 0, 0, 0.6); 
+}
+
+
 /* Header */
 .ps-logo-header{
     background-color: black;
-     height: 40px; 
+    height: 40px; 
+}
+
+.ps-logo-header img{
+    width: 100px;
 }
 
 .ps-nav-header{
     background-color: whitesmoke;
     height: 80px; 
+}
+
+.ps-img-lens img{
+    width: 25px; 
 }
 
 .ps-nav-header a{
@@ -88,15 +101,12 @@ a{
 
 
 /* Playstation 5 */
-.ps-text-color{
-    color: rgba(0, 0, 0, 0.6); 
-}
-
 .ps-selected-product{
     border: 1px solid dodgerblue;
     width: 120px;
     height: 1px;
 }
+
 
 /* new-games */
 .ps-new-games{
@@ -108,19 +118,18 @@ a{
     padding-top: 30px;
 }
 
-/* discover more */
-#discover-more p{
-    /* color: rgba(0, 0, 0, 0.6); */
-}
 
+/* discover more */
 .ps-playplus-bkg{
     background-color: lightgray;
 }
+
 
 /* playstation now */
 #playstation-now{
     background-color: #000066;
 }
+
 
 /* footer */
 footer{
