@@ -4,7 +4,6 @@ body{
 
 /* Generics */
 header{
-    /* min-height: 150px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +18,6 @@ header{
 
 .row > [class^="col"] {
     min-height: 30px;
-    /* border: 1px dashed red; */
  }
 
 .container-fluid{
@@ -32,7 +30,6 @@ header{
 
 section{
     margin-bottom: 2rem;
-    /* border: 1px solid blue; */
 }
 
 img{
@@ -125,4 +122,20 @@ img{
     background-color: #000066;
 }
 
+/* footer */
+footer{
+    background-color: dodgerblue;
+}
+
+.ps-img-globo{
+    width: 25px;
+}
+
+.ps-img-sie{
+    width: 100px;
+}
+
+footer li{
+    list-style-type: none;
+}
 
