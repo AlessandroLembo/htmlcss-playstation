@@ -40,6 +40,7 @@ li{
 
 a{
     cursor: pointer;
+    display: block;
 }
 
 .ps-text-color{
